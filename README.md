@@ -11,17 +11,17 @@
 - Với repository publish thì không cần đăng nhập hoặc cấu hình SSH Key để xác thực
 - Tại vị trí thư mục cần clone dự án về: git clone + URL giao thức HTTPS trỏ đến repository trên GitHub
 
-1. Kiểm tra trạng thái của các file đã thay đổi: **git status**
+1.Kiểm tra trạng thái của các file đã thay đổi: **git status**
 
-2. Kiểm tra xem bạn đang ở nhánh nào: **git branch**
+2.Kiểm tra xem bạn đang ở nhánh nào: **git branch**
 
-3. Nên tạo nhánh mới -> sau khi tạo nhánh mới thì git tự động chuyển bạn sang nhánh mới:  **git checkout -b <ten-nhanh-moi>** 
+3.Nên tạo nhánh mới -> sau khi tạo nhánh mới thì git tự động chuyển bạn sang nhánh mới:  **git checkout -b <ten-nhanh-moi>** 
 
 4.Tạo Staging ghi lại lịch sử các thay đổi vào repository -> lựa chọn và kiểm soát các thay đổi nào sẽ được lưu trữ commit kế tiếp
 - Lưu tất cả các file đã thay đổi: **git add .** 
 - Lưu tệp có lựu chọn: **git add <tên-file>**
 
-5.
+
 - Tạo Commit thay đổi: **git commit -m "Sửa file README.md"** 
 - Lấy mã commit: **git log**
 
