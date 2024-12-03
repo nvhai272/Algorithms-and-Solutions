@@ -17,7 +17,7 @@
 - Lưu tất cả các file đã thay đổi: **git add .** 
 - Lưu tệp có lựu chọn: **git add <tên-file>**
 
-5.Tạo commit thay đổi: **git commit -m "Sửa file README.md"**
+5.Tạo commit thay đổi: **git commit -m "nội dung thay đổi là gì?"**
 - Lấy mã commit: **git log**
 
 6.Nếu bạn muốn đẩy nhánh mới này lên GitHub: **git push -u origin <ten-nhanh-moi>**
